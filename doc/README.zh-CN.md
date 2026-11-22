@@ -2,7 +2,7 @@
 
 # Codex CLI Docker 环境
 
-[![CI](https://github.com/ycpss91255-docker/codex_cli/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/codex_cli/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/codex_cli/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/codex_cli/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 OpenAI Codex CLI 的 Docker-in-Docker（DinD）开发容器，提供 CPU 与 NVIDIA GPU 两种版本。以非 root 用户运行，并与主机的 UID/GID 相符。
 
@@ -222,7 +222,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/codex_cli \
-    https://github.com/ycpss91255-docker/codex_cli.git main --squash
+    https://github.com/ycpss91255-lab/codex_cli.git main --squash
 ```
 
 添加后的目录结构示例：
@@ -266,7 +266,7 @@ cd docker/codex_cli
 
 ```bash
 git subtree pull --prefix=docker/codex_cli \
-    https://github.com/ycpss91255-docker/codex_cli.git main --squash
+    https://github.com/ycpss91255-lab/codex_cli.git main --squash
 ```
 
 > **注意事项**：

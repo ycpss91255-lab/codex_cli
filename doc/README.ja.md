@@ -2,7 +2,7 @@
 
 # Codex CLI Docker 環境
 
-[![CI](https://github.com/ycpss91255-docker/codex_cli/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/codex_cli/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/codex_cli/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/codex_cli/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 OpenAI Codex CLI 用の Docker-in-Docker（DinD）開発コンテナ。CPU と NVIDIA GPU の2つのバリアントを提供し、非 root ユーザーで実行され、ホストの UID/GID とマッチングします。
 
@@ -222,7 +222,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/codex_cli \
-    https://github.com/ycpss91255-docker/codex_cli.git main --squash
+    https://github.com/ycpss91255-lab/codex_cli.git main --squash
 ```
 
 追加後のディレクトリ構造の例：
@@ -266,7 +266,7 @@ subtree が `my_project/docker/codex_cli/` にある場合：
 
 ```bash
 git subtree pull --prefix=docker/codex_cli \
-    https://github.com/ycpss91255-docker/codex_cli.git main --squash
+    https://github.com/ycpss91255-lab/codex_cli.git main --squash
 ```
 
 > **注意事項**：
